@@ -74,6 +74,7 @@ export class CreateExperienceTool implements IMCPTool {
       const response = await fetch(new URL(`${BASE_URL}/experiences`), {
         method: "POST",
         headers: {
+          "Content-Type": "application/json",
           accept: "application/json, text/plain, */*",
           Authorization: `Bearer ${apiKeyResult.apiKey}`,
         },
