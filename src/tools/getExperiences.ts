@@ -8,7 +8,7 @@ import type { IMCPTool } from "../types.js";
 /**
  * 職歴取得ツール
  */
-export class GetExpriencesTool implements IMCPTool {
+export class GetExperiencesTool implements IMCPTool {
   /**
    * Tool name
    */
